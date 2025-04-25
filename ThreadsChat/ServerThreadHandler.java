@@ -31,11 +31,11 @@ public class ServerThreadHandler extends Thread {
 				String input = in.readLine() ;
 				System.out.println("Client"+client_id+" Says: "+input);
 				
-				if(input=="EXIT") {
-					out.println("Ending Chat");
-					System.out.println("Ended Chat session on Server");
-					break;
-				}
+				// if(input=="EXIT") {
+				// 	out.println("Ending Chat");
+				// 	System.out.println("Ended Chat session on Server");
+				// 	break;
+				// }
 				
 				System.out.println("Enter Reply to Client"+client_id+": ");
 				String output = scannerInput.nextLine();

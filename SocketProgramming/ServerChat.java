@@ -16,9 +16,10 @@ public class ServerChat {
 		System.out.println("\t\t Simple Socker Server");
 		System.out.println("\t\t=====================\n\n");
 
-		ServerSocket serversocket = new ServerSocket(port);
 		Scanner ScannerInput = new Scanner(System.in);
 		String input, output;
+
+		ServerSocket serversocket = new ServerSocket(port);
 		
 		try {
 			while (true) {

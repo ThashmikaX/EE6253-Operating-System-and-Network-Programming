@@ -29,7 +29,6 @@ static int port = 7777;
 		PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 		BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 		
-		
 		try {
 			while(true) {
 				input = in.readLine();
