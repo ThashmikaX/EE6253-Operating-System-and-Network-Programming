@@ -50,7 +50,6 @@ public class ServerThreadHandler extends Thread {
 				out.close();
 				in.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 
